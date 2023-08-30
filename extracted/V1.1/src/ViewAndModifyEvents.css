@@ -1,0 +1,76 @@
+.example-table {
+  width: 100%;
+  margin: 1rem 0;
+
+  & th,
+  & td {
+    padding: 1rem;
+    position: relative;
+    transition: all 0.2s ease-out;
+  }
+
+  & th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+  }
+
+  & tbody tr:hover {
+    background-color: #f5f5f5;
+  }
+
+  & .MuiIconButton-root {
+    padding: 0.5rem;
+    opacity: 0.7;
+    transition: all 0.2s ease-out;
+  }
+
+  & .MuiIconButton-root:hover {
+    opacity: 1;
+  }
+
+  & .MuiButton-root {
+    background-color: #2196f3;
+    color: white;
+    transition: all 0.2s ease-out;
+  }
+
+  & .MuiButton-root:hover {
+    background-color: #0d8af4;
+  }
+
+  & .MuiFormControl-root {
+    width: 100%;
+  }
+
+  & .MuiTableRow-root:last-child {
+    & .MuiButton-root {
+      display: none;
+    }
+  }
+
+  & .MuiTableRow-root:last-child:hover {
+    background-color: #f5f5f5;
+  }
+
+  & .MuiInputBase-root {
+    background-color: #f5f5f5;
+    padding: 0.5rem;
+  }
+
+  & .MuiInputBase-input {
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+
+  & .MuiTableCell-root {
+    border-bottom: 1px solid #ddd;
+  }
+
+  & .MuiTableCell-root:last-child {
+    border-right: none;
+  }
+
+  & .MuiTableCell-root:first-child {
+    border-left: none;
+  }
+}

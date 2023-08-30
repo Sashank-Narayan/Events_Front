@@ -1,0 +1,49 @@
+.keyword{
+  width: 200px;
+  background-color: #5edaf0;
+  color: #000;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.4)
+}
+
+.backgroundImage{
+  width: 100%;
+  height: 780px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("https://www.johnlewispartnership.co.uk/content/dam/cws/images/Juniper/shops/Waitrose-and-Partners-Edgware-Road1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+.backgroundImageEvents{
+  width: 100%;
+  height: 1070px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("https://www.johnlewispartnership.co.uk/content/dam/cws/images/Juniper/shops/Waitrose-and-Partners-Edgware-Road1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+.rpn-notification-holder.top-middle{
+  left: 80%;
+}
+
+.backgroundImageReports{
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%), url("https://www.johnlewispartnership.co.uk/content/dam/cws/images/Juniper/shops/Waitrose-and-Partners-Edgware-Road1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px;
+    margin-bottom: 50px;
+}

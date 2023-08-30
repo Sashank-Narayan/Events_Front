@@ -1,0 +1,95 @@
+.example-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #000;
+  font-family: "Verdana";
+}
+
+.example-table th{
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.example-table td {
+  text-align: center;
+  color: #fff;
+  border: 1px solid white;
+  border-radius: 5px;
+  max-width: 150px;
+}
+
+.example-table th {
+  background-color: #212121;
+  font-weight: bold;
+}
+
+.example-table tr:nth-child(even) {
+  background-color: #333;
+}
+
+.example-table tr:hover {
+  background-color: #555;
+  cursor: pointer;
+}
+
+
+/* .example-table::-webkit-scrollbar {
+  width: 8px;
+}
+
+.example-table::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+.example-table::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 10px;
+} */
+
+.MuiTextField-root {
+  background: white;
+}
+
+.example-table td:last-child, .example-table th:last-child {
+  text-align: center;
+}
+
+*{
+    -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+.example-table td .MuiSvgIcon-root {
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.example-table td .MuiSvgIcon-root:hover {
+  color: #f44336;
+}
+
+.example-table td .MuiSvgIcon-root:first-child {
+  margin-right: 8px;
+}
+
+.example-table td button:hover {
+  background-color: #3e8e41;
+}
+
+.example-table td button:focus {
+  outline: none;
+}
+
+.example-table td button {
+  background-color: #4caf50;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  margin: 2px
+}

@@ -1,0 +1,9 @@
+.rpn-notification-holder.top-middle{
+  left: 90%;
+}
+
+.button{
+  &: disabled {
+    background-color: grey;
+  }
+}
